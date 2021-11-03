@@ -1,0 +1,58 @@
+body{
+    background-color:lightgrey;
+}
+#page{
+    background-color: white;
+    margin: auto;
+    border: 6px double black;
+    max-width: 750px;
+    min-width: 600px;
+}
+#logo{
+    text-align:center;
+    margin-left: 200px;
+}
+/** or we can use child selector #navigation>li rather than just calling the specific class or id**/
+#navigation{
+    text-align: center;
+    width: 600px;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    margin: auto;
+    border-bottom: 1px solid black;
+    border-top: 3px solid black;
+}
+li{
+    margin: 3px;
+    display: inline;
+}
+a{
+    padding: 6px 18px 5px 18px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover,
+a.on{
+    color: red;
+}
+#slide{
+    margin: auto;
+    margin-bottom: 6px;
+    width: 600px;
+    padding: 10px;
+}
+p{
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: monospace;
+}
+.one{
+    border: 3px solid lightgrey;
+    width: 400px;
+    padding: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
